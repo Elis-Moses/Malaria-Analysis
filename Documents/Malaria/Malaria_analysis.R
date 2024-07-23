@@ -6,7 +6,7 @@ install.packages('maps')
 library(maps)
 library(scales)
 
-# importscales# importing data
+#Importing data
 malaria_inc <- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-11-13/malaria_inc.csv")
 
 View(malaria_inc)
